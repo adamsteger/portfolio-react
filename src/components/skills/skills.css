@@ -1,12 +1,9 @@
 #skills {
   width: 80vw;
   max-width: 75rem;
-  margin: 1rem auto;
+  margin: 0 auto;
   padding-top: 1rem;
   text-align: center;
-}
-.title {
-  margin-top: 2rem;
 }
 
 .frontend-text,
@@ -34,6 +31,19 @@
 }
 
 @media screen and (min-width: 600px) {
+  .frontend-grid,
+  .backend-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .block {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 987px) {
   .frontend-grid,
   .backend-grid {
     display: flex;

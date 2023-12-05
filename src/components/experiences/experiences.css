@@ -1,0 +1,85 @@
+#experiences {
+  overflow: hidden;
+  width: 85vw;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.description {
+  font-weight: 200;
+  font-size: 1rem;
+  max-width: 50rem;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 550px) {
+  .card-img {
+    width: 5rem;
+    height: 3rem;
+  }
+
+  .card-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    display: flex;
+  }
+  .card-title,
+  .position-title {
+    margin-bottom: 1px !important;
+  }
+
+  .date {
+    text-align: right;
+  }
+}
+
+.card {
+  width: 85%;
+  background-color: #353535;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  align-items: center;
+  text-align: left;
+}
+
+.card-img {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.card-text {
+  width: 100%;
+}
+
+.card-title,
+.position-title {
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+.position-title {
+  font-size: 1rem;
+}
+
+.gravatt {
+  object-fit: contain;
+}

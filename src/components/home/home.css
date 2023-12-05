@@ -20,7 +20,9 @@
   }
 
   .profile-container {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -41,10 +43,14 @@
   .profile-container {
     flex: 0.75;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   #home {
     display: flex;
+    height: calc(100vh - 5rem);
   }
 }
 
