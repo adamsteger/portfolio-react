@@ -14,14 +14,15 @@ const Home = () => {
         </span>
         <p className="intro-extra">
           I enjoy creating websites and web apps, ones that are both visually
-          pleasing and user-friendly. I am passionate about combining my
-          frontend and backend skills to break into full stack development.
+          pleasing and user-friendly.
         </p>
         <Link className="project-link">
           <button className="project-btn">View Projects</button>
         </Link>
       </div>
-      <img src={Profile} alt="Me" className="profile-pic" />
+      <div className="profile-container">
+        <img src={Profile} alt="Me" className="profile-pic" />
+      </div>
     </section>
   );
 };
