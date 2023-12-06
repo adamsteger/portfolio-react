@@ -97,7 +97,7 @@ const Experiences = () => {
           <h3 className="position-title">Hospitality Director</h3>
           <p className="card-description">
             Managed ordering, planning, and organization of all meals for over
-            250 campers and staff daily. Directed managed 6 kitchen assistants
+            250 campers and staff daily. Directly managed 6 kitchen assistants
             to delegate tasks and coordinate schedules.
           </p>
         </div>
