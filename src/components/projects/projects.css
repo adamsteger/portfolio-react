@@ -1,0 +1,103 @@
+#projects {
+  width: 80vw;
+  min-height: calc(100vh - 4rem);
+  max-width: 85rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.projects-title {
+  margin-bottom: 1rem;
+}
+
+.projects-description {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.project-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-card {
+  flex: 1;
+  position: relative;
+  max-width: 20rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #353535;
+}
+.project-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  padding: 2rem;
+  height: 100%;
+  visibility: hidden;
+  color: white;
+}
+
+.project-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 65rem;
+  padding: 3rem;
+}
+
+.project-img {
+  object-fit: cover;
+  height: 19rem;
+  border-radius: 1rem;
+}
+
+.project-card:hover .project-img {
+  /* background-color: #353535; */
+  opacity: 0.05;
+}
+
+.project-card:hover {
+  background-color: transparent;
+}
+
+.project-card:hover .project-description {
+  visibility: visible;
+  opacity: 0.9;
+}
+
+.project-description:hover {
+  opacity: 1;
+}
+
+a {
+  color: red;
+}
+
+/* .project-description:hover {
+  opacity: 1 !important;
+  color: white;
+} */
+
+/* 
+.project-card {
+  width: 20rem;
+  height: 20rem;
+  text-align: center;
+}
+
+
+
+.project-img:hover {
+  opacity: 0.4;
+} */
