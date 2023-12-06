@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 import Menu from "../../assets/menu.png";
+import Logo from "../../assets/s-logo.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className="navbar">
-      {/* <img src="" alt="logo" className='logo' /> */}
-      <p className="navbar-name">Adam Steger</p>
+      <img src={Logo} alt="logo" className="logo" />
+      {/* <p className="navbar-name">Adam Steger</p> */}
       <div className="nav-container">
         <Link
           activeClass="active"

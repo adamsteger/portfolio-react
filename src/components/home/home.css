@@ -1,8 +1,7 @@
 #home {
   width: 100vw;
   max-width: 100rem;
-  margin: 3rem auto;
-  /* overflow: hidden; */
+  margin: 0 auto;
   position: relative;
 }
 

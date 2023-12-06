@@ -29,11 +29,11 @@ const Skills = () => {
         </div>
         <div className="block">
           <img src={Javascript} alt="Javascript Logo" className="block-img" />
-          <p className="label">Javascript</p>
+          <p className="label">JavaScript</p>
         </div>
         <div className="block">
           <img src={Typescript} alt="Typescript Logo" className="block-img" />
-          <p className="label">Typescript</p>
+          <p className="label">TypeScript</p>
         </div>
         <div className="block">
           <img src={SCSS} alt="SCSS Logo" className="block-img" />
