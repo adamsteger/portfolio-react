@@ -16,7 +16,15 @@ const Home = () => {
           I enjoy creating websites and web apps, ones that are both visually
           pleasing and user-friendly.
         </p>
-        <Link className="project-link">
+        <Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="project-link"
+        >
           <button className="project-btn">View Projects</button>
         </Link>
       </div>

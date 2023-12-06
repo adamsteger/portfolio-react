@@ -31,6 +31,7 @@ const Projects = () => {
             <a
               href="https://github.com/adamsteger/Adam-Steger-Portfolio/tree/main/LifesABit"
               target="_blank"
+              className="repo"
             >
               Repository
             </a>
@@ -47,6 +48,7 @@ const Projects = () => {
             <a
               href="https://github.com/adamsteger/portfolio-react"
               target="_blank"
+              className="repo"
             >
               Repository
             </a>
@@ -66,6 +68,7 @@ const Projects = () => {
             <a
               href="https://github.com/adamsteger/Adam-Steger-Portfolio/tree/main/algorithms"
               target="_blank"
+              className="repo"
             >
               Repository
             </a>
@@ -85,6 +88,7 @@ const Projects = () => {
             <a
               href="https://github.com/adamsteger/Adam-Steger-Portfolio/tree/main/simple-form"
               target="_blank"
+              className="repo"
             >
               Repository
             </a>
@@ -104,6 +108,7 @@ const Projects = () => {
             <a
               href="https://github.com/adamsteger/Adam-Steger-Portfolio/tree/main/internship"
               target="_blank"
+              className="repo"
             >
               Repository
             </a>
@@ -129,6 +134,7 @@ const Projects = () => {
             <a
               href="https://github.com/adamsteger/Adam-Steger-Portfolio/tree/main/designpatterns"
               target="_blank"
+              className="repo"
             >
               Repository
             </a>
@@ -147,6 +153,7 @@ const Projects = () => {
             <a
               href="https://github.com/adamsteger/Adam-Steger-Portfolio/tree/main/networks/GroupChat"
               target="_blank"
+              className="repo"
             >
               Repository
             </a>
@@ -169,6 +176,7 @@ const Projects = () => {
             <a
               href="https://github.com/adamsteger/Adam-Steger-Portfolio/tree/main/computation"
               target="_blank"
+              className="repo"
             >
               Repository
             </a>

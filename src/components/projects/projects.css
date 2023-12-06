@@ -80,24 +80,6 @@
   opacity: 1;
 }
 
-a {
+a.repo {
   color: red;
 }
-
-/* .project-description:hover {
-  opacity: 1 !important;
-  color: white;
-} */
-
-/* 
-.project-card {
-  width: 20rem;
-  height: 20rem;
-  text-align: center;
-}
-
-
-
-.project-img:hover {
-  opacity: 0.4;
-} */
