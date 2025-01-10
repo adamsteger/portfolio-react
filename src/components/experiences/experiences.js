@@ -5,6 +5,7 @@ import USC from "../../assets/usc_logo.png";
 import Duck from "../../assets/duckcreek-logo.jpg";
 import UofSC from "../../assets/engineering.png";
 import Gravatt from "../../assets/gravatt.jpg";
+import Ally from "../../assets/ally.png";
 
 const Experiences = () => {
   return (
@@ -14,6 +15,22 @@ const Experiences = () => {
         A list of professional experiences and my educational journey that has
         led me to where I am today.
       </p>
+      <div className="card">
+        <img src={Ally} alt="Ally Financial Logo" className="card-img" />
+        <div className="card-text">
+          <div className="card-title">
+            <h2 className="card-title">Ally Financial</h2>
+            <span className="date">Feb 2024 - Present</span>
+          </div>
+          <h3 className="position-title">Junior Full Stack Developer</h3>
+          <p className="card-description">
+            Serviced the Ally Credit Card on a serverless Cloud-based team.
+            Provisioned dynamic IaC via Terraform AWS and wrote scripts in
+            Python, Node, and Shell. Lead developer of a PCI-DSS Compliant ETL
+            platform that serviced 20+ vendors and 200+ files
+          </p>
+        </div>
+      </div>
       <div className="card">
         <img
           src={USC}
@@ -40,7 +57,7 @@ const Experiences = () => {
         <div className="card-text">
           <div className="card-title">
             <h2 className="card-title">Swampfox Technologies</h2>
-            <span className="date">Sept 2023 - Present</span>
+            <span className="date">Sept 2023 - December 2023</span>
           </div>
           <h3 className="position-title">Software Developer Intern</h3>
           <p className="card-description">
