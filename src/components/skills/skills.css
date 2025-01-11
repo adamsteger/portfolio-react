@@ -6,7 +6,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .frontend-text,
@@ -20,7 +20,7 @@
 .backend-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .block {
@@ -53,10 +53,13 @@
   .backend-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
   }
 
   .block {
     width: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }

@@ -24,10 +24,10 @@ const Experiences = () => {
           </div>
           <h3 className="position-title">Junior Full Stack Developer</h3>
           <p className="card-description">
-            Serviced the Ally Credit Card on a serverless Cloud-based team.
-            Provisioned dynamic IaC via Terraform AWS and wrote scripts in
-            Python, Node, and Shell. Lead developer of a PCI-DSS Compliant ETL
-            platform that serviced 20+ vendors and 200+ files
+            Service the Ally Credit Card on an agile and innovative serverless
+            Cloud-based team. Provision dynamic IaC via Terraform AWS and wrote
+            scripts in Python, Node, and Shell. Lead developer of a PCI-DSS
+            Compliant ETL platform that services 20+ vendors and 200+ files
           </p>
         </div>
       </div>
